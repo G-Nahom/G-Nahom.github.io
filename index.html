@@ -1,148 +1,1323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>G-Nahome</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-     body{
-         background-color: rgb(235, 219, 246);
-     }
-     .heading{
-         color:blue;
-         text-shadow: 2px 2px magenta;
-        text-align: center;
-        padding: 10px;
-     }
-     .brand_style{
-        color: yellow;
-        background-color: blue;
-        border: 2px solid red;
-        border-radius: 50px 20px;
-        padding: 5px;
-     }
-     a{
-       font-size: 1.2em;
-       font-weight: bold;
-     }
-     a:hover{
-       background-color: green;
-       border-radius: 20px 20px;
-       margin: 10px;
-       color: white;
-     }
-     a:active{
-       background-color:thistle;
-       color:green;
-       border-radius: 20px 20px;
-     }
-     a:focus{
-       background-color: lightblue;
-       color:white;
-       border-radius: 20px 20px;
-     }
-     ul li{
-       margin-right: 20px;
-     }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FlexStart Bootstrap Template - Index</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.9.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h1 class="brand_style">G</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-              
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"  href="#">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
-                  </li>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>FlexStart</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+              <p>
+                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Values</h2>
+          <p>Odit est perspiciatis laborum et dicta</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>Ad cupiditate sed est odio</h3>
+              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>Voluptatem voluptatum alias</h3>
+              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>Fugit cupiditate alias nobis.</h3>
+              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="assets/img/features.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Eos aspernatur rem</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Facilis neque ipsa</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Volup amet voluptas</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Rerum omnis sint</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Alias possimus</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Repellendus mollitia</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div> <!-- / row -->
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                </div>
+                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                </div>
+                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+          <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Ullamco laboris nisi</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Beatae veritatis</h4>
+                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Molestiae dolor</h4>
+                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Explicabo consectetur</h4>
+                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>Veritatis et dolores facere numquam et praesentium</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Nesciunt Mete</h3>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Eosle Commodi</h3>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Ledo Markt</h3>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Asperiores Commodi</h3>
+              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Velit Doloremque.</h3>
+              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Dolori Architecto</h3>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Pricing</h2>
+          <p>Check our Pricing</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Free Plan</h3>
+              <div class="price"><sup>$</sup>0<span> / mo</span></div>
+              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <span class="featured">Featured</span>
+              <h3 style="color: #65c600;">Starter Plan</h3>
+              <div class="price"><sup>$</sup>19<span> / mo</span></div>
+              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Business Plan</h3>
+              <div class="price"><sup>$</sup>29<span> / mo</span></div>
+              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff0071;">Ultimate Plan</h3>
+              <div class="price"><sup>$</sup>49<span> / mo</span></div>
+              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Portfolio</h2>
+          <p>Check our latest work</p>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Team</h2>
+          <p>Our hard working team</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Clients</h2>
+          <p>Temporibus omnis officia</p>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Blog</h2>
+          <p>Recent posts form our Blog</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <span class="post-date">Tue, September 15</span>
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <span class="post-date">Fri, August 28</span>
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <span class="post-date">Mon, July 11</span>
+              <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street,<br>New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com<br>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
         </div>
-      </nav>
-    <div class="container">
-      
-      <marquee class="heading" width="100%" direction="right" height="30%">
-       <h1> Welcome to My Site &#128525;</h1>
-    </marquee>
-    
-    
-    <div class="row">
-         <div class="col shadow">
-          <div class="card" style="width: 100%;">
-            <img class="img-thumbnail" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text "><b class="text-info">Let Us Code Together</b> &#128540; </p>
-              <a href="#" class="btn btn-primary">Start Coding..</a>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>FlexStart</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-         </div>
-         <div class="col bg-info">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://previews.123rf.com/images/iqoncept/iqoncept1511/iqoncept151100199/48781740-i-love-coding-words-on-a-white-button-or-pin-for-a-programmer-coder-or-website-developer-or-applicat.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcCduvQ9SeNariY4FsJFrNIl5YTi6-bWeStA&usqp=CAU" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://pbs.twimg.com/media/DSVMpBqWsAAaSDM.jpg"/>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
           </div>
-         </div>
-    </div>
-    </div>
-    <div class="container shadow bg-dark">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex text-center align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-          </a>
-          <span class="text-muted">&copy; 2021 Company, Inc</span>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
         </div>
-    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
-      </footer>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
